@@ -9,8 +9,14 @@
 </head>
 <body>
     <div id="app">
-        <div v-for='curriculm in jobs'>
-            {{curriculm}}
+        <div v-for='(curriculm, index) in jobs'> <br>
+            <button>Preferiti</button>
+            <br>
+            <button @click="deleteEvent(curriculm)">Invia Candidatura</button>
+
+            
+            <br>
+            {{curriculm}} 
         </div>
 
     </div>

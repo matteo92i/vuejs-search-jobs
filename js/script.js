@@ -53,10 +53,21 @@ new Vue({
                 contract: 'Full Time',
             },
         ],
-    },
+        curriculum: { id: '', company:'', position:'', description: '', created_at: '',logo:'', city:'', contract:'', }
         
+    },
+    methods:{
+        deleteEvent: function(curriculum) {
+            this.jobs.splice(this.jobs.indexOf(curriculum), 1);
+          }
+
+ 
+    },
+
 }
 )
+
+
         
 
 
