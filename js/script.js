@@ -53,10 +53,10 @@ new Vue({
                 contract: 'Full Time',
             },
         ],
-    }
+    },
         
 }
-);
+)
         
 
 
